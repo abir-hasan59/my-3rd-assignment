@@ -17,9 +17,6 @@
       tailwind.config = {
         theme: {
           extend: {
-          backgroundImage: {
-        'bg-image': "url('/assets/bg.jpg')",
-          },
             colors: {
               clifford: "#da373d",
             },
@@ -310,6 +307,29 @@
              </div>
         </section>
 
+        <!-- Discuss section -->
+         <section class="py-28 bg-[url('assets/bg.jpg')] bg-center bg-no-repeat bg-cover">
+          <div class="text-center">
+            <button class="btn bg-[#ABEF5F33] rounded-3xl mb-5 font-bold">
+              <i class="fa-solid fa-arrow-right"></i> Let’s Connect
+            </button>
+            <h1 class="text-2xl md:text-4xl font-extrabold">Let’s Discuss Next Project</h1>
+            <p class="py-5">The barn house captivates with its blend of rustic <br class="sm:hidden"> charm and modern sophistication, <br class="hidden sm:block"> featuring <br class="sm:hidden"> weathered wood, sleek metal accents.</p>
+          </div>
+
+          <div class="grid grid-cols-1 grid-rows-5 md:grid-cols-2 w-4/5 md:w-3/5 mx-auto gap-8">
+            <input type="text" placeholder="First Name*" class="input w-full rounded-3xl "/>   
+            <input type="text" placeholder="Last Name*" class="input w-full rounded-3xl" />
+            <input type="text" placeholder="Phone Number*" class="input w-full rounded-3xl" />   
+            <input type="text" placeholder="Email Number*" class="input w-full rounded-3xl" />   
+            <textarea placeholder="Write your message here" class="w-full rounded-3xl row-span-5 md:row-span-3 md:col-span-2 p-5"></textarea>
+            <button
+            class="btn bg-[#ABEF5F] text-black font-extrabold text-lg rounded-3xl md:col-span-2">
+            Send Mail
+            <i class="fa-solid fa-arrow-right fontno inline-flex justify-center items-center -rotate-45 text-white bg-black h-7 w-7 p-2 rounded-full mr-1"></i>
+          </button>
+          </div>
+         </section>
     </main>
 
     <footer></footer>
