@@ -17,6 +17,9 @@
       tailwind.config = {
         theme: {
           extend: {
+          backgroundImage: {
+        'bg-image': "url('/assets/bg.jpg')",
+          },
             colors: {
               clifford: "#da373d",
             },
@@ -242,6 +245,71 @@
           </div>
         </div>
        </section>
+
+       <!-- portfolio -->
+        <section class="py-10 md:py-28 w-11/12 md:w-3/5 mx-auto">
+            <div class="text-center">
+              <button class="btn bg-[#ABEF5F33] rounded-3xl mb-5 font-bold">
+                <i class="fa-solid fa-arrow-right"></i> Explore our Latest works
+              </button>
+              <h1 class="text-2xl md:text-5xl font-extrabold">Our Latest Portfolio</h1>
+              <p class="py-5">The barn house captivates with its blend of rustic <br class="sm:hidden"> charm and modern sophistication, <br class="hidden sm:block"> featuring <br class="sm:hidden"> weathered wood, sleek metal accents.</p>
+            </div>
+
+            <!-- cards -->
+             <div class="w-full">
+              <div class="grid md:grid-cols-3 gap-5">
+                <!-- card 1 -->
+                 <div class="p-5 border rounded-2xl flex flex-col md:flex-row md:col-span-2 gap-5 w-full">
+                    <img class="w-full sm:w-auto" src="./assets/img1.png" alt="">
+                    <div>
+                        <h3 class="text-2xl font-extrabold">Commercial</h3>
+                        <p class="font-medium py-5">The barn house captivates with its blend of rustic charm <br class="hidden md:block"> and modern. The barn house captivates with its blend of <br class="hidden md:block"> rustic charm and modern .</p>
+                        <h3 class="text-xl font-extrabold">View Details
+                          <i
+                          class="fa-solid fa-arrow-right fontno inline-flex justify-center items-center -rotate-45 bg-[#ABEF5F] h-7 w-7 p-2 rounded-full mr-1"
+                        ></i>
+                        </h3>
+                    </div>
+                 </div>
+                <!-- card 2 -->
+                 <div >
+                    <img class="p-5 border rounded-2xl w-full sm:w-auto" src="./assets/img2.png" alt="">
+                 </div>
+                        
+                 <!-- card 6 -->
+                  <div class="sm:hidden">
+                     <img class="p-5 border rounded-2xl w-full sm:w-auto" src="./assets/img5.png" alt="">
+                  </div>
+              </div>
+
+              <div class="grid md:grid-cols-4 gap-5 my-5">
+                <!-- card 3 -->
+                 <div >
+                    <img class="p-5 border rounded-2xl w-full sm:w-auto" src="./assets/img3.png" alt="">
+                 </div>
+                <!-- card 4 -->
+                 <div class="p-5 border rounded-2xl flex flex-col md:flex-row md:col-span-2 gap-5 ">
+                    <img class="w-full sm:w-auto" src="./assets/img4.png" alt="">
+                    <div>
+                      <h3 class="text-2xl font-extrabold">Commercial</h3>
+                      <p class="font-medium py-5">The barn house captivates with its blend of rustic charm and modern. </p>
+                      <h3 class="text-xl font-extrabold">View Details
+                        <i
+                        class="fa-solid fa-arrow-right fontno inline-flex justify-center items-center -rotate-45 bg-[#ABEF5F] h-7 w-7 p-2 rounded-full mr-1"
+                      ></i>
+                      </h3>
+                    </div>
+                 </div>
+                <!-- card 5 -->
+                 <div >
+                    <img class="p-5 border rounded-2xl w-full sm:w-auto" src="./assets/img5.png" alt="">
+                 </div>
+    
+              </div>
+             </div>
+        </section>
+
     </main>
 
     <footer></footer>
